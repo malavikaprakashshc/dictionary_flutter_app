@@ -17,7 +17,7 @@ class DictionaryApiDatasource {
     final models =
         jsonResponse.map<WordModel>((e) => WordModel.fromJson(e)).toList();
 
-    // ✅ Pick first VALID model (with meanings)
+    //Pick first VALID model (with meanings)
     final valid = models.firstWhere(
       (m) => m.meanings != null && m.meanings!.isNotEmpty,
       orElse: () => models.first,

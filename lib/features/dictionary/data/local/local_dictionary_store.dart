@@ -9,7 +9,7 @@ class LocalDictionaryStore extends ChangeNotifier {
   void setWords(List<Word> newWords) {
     words = newWords;
     print("Store initialized: ${words.length}");
-    notifyListeners(); // 🔥 IMPORTANT
+    notifyListeners(); // IMPORTANT
   }
 
   void addWord(Word word) {
@@ -20,7 +20,7 @@ class LocalDictionaryStore extends ChangeNotifier {
     if (!exists) {
       words.add(word);
       print("Word added: ${word.word}");
-      notifyListeners(); // 🔥 IMPORTANT
+      notifyListeners(); // IMPORTANT
     }
   }
 }

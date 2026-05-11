@@ -20,7 +20,7 @@ Future<Word> getWord(String query) async {
   final connectivity = await Connectivity().checkConnectivity();
   final isOnline = connectivity != ConnectivityResult.none;
 
-  // 🔥 1. TRY API FIRST
+  // 1. TRY API FIRST
   if (isOnline) {
     try {
       final model = await api.fetchWord(query);
@@ -35,14 +35,14 @@ Future<Word> getWord(String query) async {
     }
   }
 
-  // 🔥 2. CACHE
+  // 2. CACHE
   final cached = cache.get(query);
   if (cached != null) {
     print("Loaded from cache");
     return cached;
   }
 
-  // 🔥 3. LOCAL STORE
+  // 3. LOCAL STORE
   final local = localStore.words.firstWhere(
     (w) => w.word.toLowerCase() == query.toLowerCase(),
     orElse: () => Word(word: '', phonetic: '', meanings: []),
@@ -53,28 +53,7 @@ Future<Word> getWord(String query) async {
     return local;
   }
 
-  // ❌ 4. NOTHING FOUND
+  // 4. NOTHING FOUND
   throw Exception("No data available");
 }
-  // Future<Word> getWord(String query) async {
-  //   final connectivity = await Connectivity().checkConnectivity();
-
-  //   // ignore: unrelated_type_equality_checks
-  //   final isOnline = connectivity != ConnectivityResult.none;
-
-  //   if (isOnline) {
-  //     final model = await api.fetchWord(query);
-  //     final word = model.toEntity();
-  
-  //     cache.save(word);
-  //     localStore.addWord(word);
-
-  //     return word;
-  //   }
-
-  //   final cached = cache.get(query);
-  //   if (cached != null) return cached;
-
-  //   throw Exception("No data available offline");
-  // }
 }
