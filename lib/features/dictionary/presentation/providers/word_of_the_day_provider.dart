@@ -28,11 +28,4 @@ Future<Word?> wordOfTheDay(Ref ref) async {
     return randomWord;
   }
 }
-// Word? wordOfTheDay(Ref ref) {
-//   final store = ref.watch(localStoreProvider);
-//   if (store.words.isEmpty) return null;
 
-//   final random = Random();
-//   final index = random.nextInt(store.words.length);
-//   return store.words[index];
-// }

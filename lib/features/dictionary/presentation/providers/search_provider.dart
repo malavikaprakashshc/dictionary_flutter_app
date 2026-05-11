@@ -21,7 +21,6 @@ class SearchNotifier extends _$SearchNotifier {
     }
 
     final q = query.toLowerCase();
-    print("Total words in store: ${store.words.length}");
     
     final results = store.words
         .where((word) => 

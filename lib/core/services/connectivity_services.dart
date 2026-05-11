@@ -16,7 +16,7 @@ class ConnectivityServices {
     yield* _connectivity.onConnectivityChanged.map(_hasConnection).distinct();
   }
 
-  /// 🔍 CURRENT STATUS (one-time check)
+  /// CURRENT STATUS (one-time check)
   Future<bool> isOnline() async {
     final results = await _connectivity.checkConnectivity();
     return _hasConnection(results);
