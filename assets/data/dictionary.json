@@ -1,0 +1,31 @@
+[
+  { "word": "apple", "phonetic": "/ˈæpəl/", "phonetics": [{ "text": "/ˈæpəl/", "audio": "" }], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "A round fruit with red, green, or yellow skin.", "example": "She ate an apple.", "synonyms": ["fruit"] }] }] },
+  { "word": "ant", "phonetic": "/ænt/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "A small insect living in colonies.", "example": "The ant carried food.", "synonyms": [] }] }] },
+  { "word": "air", "phonetic": "/ɛər/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "The invisible gaseous substance surrounding the earth.", "example": "The air is fresh.", "synonyms": [] }] }] },
+  { "word": "animal", "phonetic": "/ˈænɪməl/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "A living organism that feeds on organic matter.", "example": "The zoo has many animals.", "synonyms": [] }] }] },
+  { "word": "arrow", "phonetic": "/ˈæroʊ/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "A thin straight weapon shot from a bow.", "example": "He shot an arrow.", "synonyms": [] }] }] },
+
+  { "word": "ball", "phonetic": "/bɔːl/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "A round object used in games.", "example": "He kicked the ball.", "synonyms": [] }] }] },
+  { "word": "book", "phonetic": "/bʊk/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "A written work with pages.", "example": "I read a book.", "synonyms": ["novel"] }] }] },
+  { "word": "bird", "phonetic": "/bɜːrd/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "A feathered flying animal.", "example": "The bird sings.", "synonyms": [] }] }] },
+  { "word": "bread", "phonetic": "/brɛd/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "A baked food made of flour.", "example": "She bought bread.", "synonyms": [] }] }] },
+  { "word": "brave", "phonetic": "/breɪv/", "phonetics": [], "meanings": [{ "partOfSpeech": "adjective", "definitions": [{ "definition": "Showing courage.", "example": "He is brave.", "synonyms": ["courageous"] }] }] },
+
+  { "word": "cat", "phonetic": "/kæt/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "A small domestic animal.", "example": "The cat sleeps.", "synonyms": [] }] }] },
+  { "word": "car", "phonetic": "/kɑːr/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "A road vehicle.", "example": "He drives a car.", "synonyms": ["vehicle"] }] }] },
+  { "word": "cup", "phonetic": "/kʌp/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "A small drinking container.", "example": "She drank tea.", "synonyms": [] }] }] },
+  { "word": "cake", "phonetic": "/keɪk/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "A sweet baked dessert.", "example": "We ate cake.", "synonyms": [] }] }] },
+  { "word": "cloud", "phonetic": "/klaʊd/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "Water vapor in the sky.", "example": "Clouds are white.", "synonyms": [] }] }] },
+
+  { "word": "dog", "phonetic": "/dɒɡ/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "A domesticated animal.", "example": "The dog barked.", "synonyms": [] }] }] },
+  { "word": "door", "phonetic": "/dɔːr/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "A movable barrier for entry.", "example": "Close the door.", "synonyms": [] }] }] },
+  { "word": "dream", "phonetic": "/driːm/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "A series of thoughts during sleep.", "example": "I had a dream.", "synonyms": [] }] }] },
+  { "word": "dance", "phonetic": "/dæns/", "phonetics": [], "meanings": [{ "partOfSpeech": "verb", "definitions": [{ "definition": "To move rhythmically.", "example": "She likes to dance.", "synonyms": [] }] }] },
+  { "word": "dark", "phonetic": "/dɑːrk/", "phonetics": [], "meanings": [{ "partOfSpeech": "adjective", "definitions": [{ "definition": "With little or no light.", "example": "The room is dark.", "synonyms": [] }] }] },
+
+  { "word": "ear", "phonetic": "/ɪər/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "The organ of hearing.", "example": "My ear hurts.", "synonyms": [] }] }] },
+  { "word": "earth", "phonetic": "/ɜːrθ/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "The planet we live on.", "example": "Earth is beautiful.", "synonyms": [] }] }] },
+  { "word": "eat", "phonetic": "/iːt/", "phonetics": [], "meanings": [{ "partOfSpeech": "verb", "definitions": [{ "definition": "To consume food.", "example": "I eat rice.", "synonyms": [] }] }] },
+  { "word": "egg", "phonetic": "/ɛɡ/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "An oval food laid by birds.", "example": "She boiled an egg.", "synonyms": [] }] }] },
+  { "word": "energy", "phonetic": "/ˈɛnərdʒi/", "phonetics": [], "meanings": [{ "partOfSpeech": "noun", "definitions": [{ "definition": "Power used to do work.", "example": "He has a lot of energy.", "synonyms": [] }] }] }
+]

@@ -1,0 +1,28 @@
+PODS:
+  - connectivity_plus (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_tts (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_tts (from `.symlinks/plugins/flutter_tts/ios`)
+
+EXTERNAL SOURCES:
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  Flutter:
+    :path: Flutter
+  flutter_tts:
+    :path: ".symlinks/plugins/flutter_tts/ios"
+
+SPEC CHECKSUMS:
+  connectivity_plus: cb623214f4e1f6ef8fe7403d580fdad517d2f7dd
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_tts: 35ac3c7d42412733e795ea96ad2d7e05d0a75113
+
+PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e
+
+COCOAPODS: 1.16.2
